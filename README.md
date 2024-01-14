@@ -58,7 +58,9 @@ Finally, we are ready to build the custom SD card image.
 
 Start by cloning the PYNQ repository in a convenient location, in my case : `cd ~/Documents; git clone --depth 1 git@github.com:Xilinx/PYNQ.git`
 
-Start by setting up the sdbuild flow: `./sdbuild/scripts/setup_host.sh`. Then, follow step 3 of [_Building the Image from Source_](https://pynq.readthedocs.io/en/latest/pynq_sd_card.html). 
+Start by setting up the sdbuild flow: `./sdbuild/scripts/setup_host.sh`. Then, follow step 3 of [_Building the Image from Source_](https://pynq.readthedocs.io/en/latest/pynq_sd_card.html). _Note_: Download the 2 pre-built images circled below. As of 2024-01-14, there is a naming bug in `PYNQ rootfs arm v3.0.1`: rename its extension from `.gz` to `.tar.gz`.
+
+![petalinux_bsp_bd](img/prebuilt_images.png)
 
 Copy/move this repo's `Zybo-Z7-20` folder to `<PYNQ>/boards/`. 
 
