@@ -1,0 +1,282 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:10 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_switches_gpio_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_switches_gpio_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:10 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_rst_ps7_0_fclk1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_rst_ps7_0_fclk1_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:10 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_rst_ps7_0_fclk0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_rst_ps7_0_fclk0_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:10 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_rgbleds_gpio_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_rgbleds_gpio_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_rgb2dvi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_rgb2dvi_0_0 (digilentinc.com:ip:rgb2dvi:1.2 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_ps7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_ps7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_proc_sys_reset_pixelclk_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_proc_sys_reset_pixelclk_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_leds_gpio_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_leds_gpio_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_hdmi_out_hpd_video_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_hdmi_out_hpd_video_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_dvi2rgb_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_dvi2rgb_0_0 (digilentinc.com:ip:dvi2rgb:1.7 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:09 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_clk_wiz_10MHz_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_clk_wiz_10MHz_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:08 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_btns_gpio_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_btns_gpio_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 26 16:51:08 2023
+| Host         : gabriel-vb running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_axi_gpio_hdmiin_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of base_axi_gpio_hdmiin_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 28)) to Vivado generation flows.
+
