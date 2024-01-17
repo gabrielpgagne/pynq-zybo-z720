@@ -82,6 +82,8 @@ Albeit unrelated to the build process, if you need high-performance access to PY
 
 ## Notes
 
+### Custom image build
+
 Keep in mind that PYNQ requires exact versions of Xilinx tools. Refer to PYNQ's main page to know which versions are compatible with a given PYNQ version.
 
 Now, some thoughts on the custom board creation process. In general, try to start from a similar board - eg ZZ720 uses a similar board to PYNQ-Z1. 
@@ -92,4 +94,10 @@ Then, create a simple `petalinux_bsp`. I had success by creating an extremely si
 
 Then, I exported the bitstream and exported the _hardware platform_: `File->Export->Export Hardware` to `<Zybo-Z7-20>/petalinux_bsp/hardware_project/zybo-z7-20.xsa`.
 
+### What is _base_ ?
+
 As for the _base overlay_ this one is loaded at boot, so feel free to include more stuff, for example HDMI, LEDs, Switches, etc. You can regenerate the _base_ BD by running `Zybo-Z7-20/base/base/base.tcl` in Vivado.
+
+### Installing overlays
+
+For some reason, it seems this buildflow does not install _base_ by default. As for any other overlay, just put the _base.bit_, _base.hwh_, _base.py_ in `~/pynq/overlays` and update the corresponding `__init__.py`.
