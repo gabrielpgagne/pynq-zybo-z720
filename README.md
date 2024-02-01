@@ -10,10 +10,10 @@ Preliminary note: this setup assumes that I want my Xilinx tools installation to
 
 ### VM
 
-This workflow **will almost certainly break if you don't use Ubuntu 20.04 VM**. Make sure to replace johndoe by YOUR username !.
+This workflow **will almost certainly break if you don't use Ubuntu 20.04 VM**. Make sure to replace johndoe by YOUR username !
 
 - Download and install [VirtualBox](https://www.virtualbox.org/)
-- Create a [Ubuntu 22.04.6](https://ubuntu.com/download/alternative-downloads) VM. Reserve at least 150 GB of disk space for the VM. Set your VM username to your Host machine username, in this example _johndoe_.
+- Create a [Ubuntu 20.04](https://ubuntu.com/download/alternative-downloads) VM. Reserve at least 150 GB of disk space for the VM. Set your VM username to your Host machine username, in this example _johndoe_.
 - Change the default shell from `dash` to `bash`: `sudo dpkg-reconfigure dash`
 - Setup passwordless sudo for _johndoe_ : see [this article](https://timonweb.com/devops/how-to-enable-passwordless-sudo-for-a-specific-user-in-linux/). TLDR use visudo and add `johndoe ALL=(ALL) NOPASSWD: ALL` at the end
 - (Optional but recommended) Install the [VirtualBox Guest Additions](https://www.makeuseof.com/install-virtualbox-guest-additions-on-linux/) to be able to share peripherals
@@ -66,7 +66,7 @@ Copy/move this repo's `Zybo-Z7-20` folder to `<PYNQ>/boards/`.
 
 Now, you can play around in the `boards/Zybo-Z7-20` files if you want to modify anything (eg change the _base_ overlay or patch the BSP).
 
-When you're ready, from `sdbuild`, build the image : `make BOARDS=Zybo-Z7-20`. If an error occurs, you can clean the build artifacts : `make clean`. Good luck !
+When you're ready, from `PYNQ/sdbuild/`, build the image : `make BOARDS=Zybo-Z7-20`. If an error occurs, you can clean the build artifacts : `make clean`. Good luck !
 
 When the build is finished, plug in an SD card (min. 16 GB recommended) and follow the [_Writing an SD Card Image_ instructions](https://pynq.readthedocs.io/en/latest/appendix/sdcard.html).
 
@@ -76,9 +76,9 @@ When the SD card is flashed, _eject it safely_ and insert it into ZZ720's SD car
 
 You can connect a USB cable to the Zybo-Z7-20 to access its serial port. On the host-side, 2 `/dev/ttyUSB*` devices should have been created by ZZ720. Access the second one and press the PS-SRST button. You should see logs and eventually land in a console.
 
-From now, you can configure the _IP address_, install packages, etc with your ZZ720. I also recommend setting up SSH and doing remote development with VSCode !
+From now, you can configure the _IP address_, install packages, etc with your ZZ720. I also recommend setting up SSH and doing remote development with VS Code !
 
-Albeit unrelated to the build process, if you need high-performance access to PYNQ (aka not using Python), I recommend the [PYNQ API](https://github.com/mesham/pynq_api) which allows you to use PYNQ from C. Together with Python's CFFI, it makes for a great combo.
+Albeit unrelated to the build process, if you need high-performance access to PYNQ (aka not using Python), I used with great success the [PYNQ API](https://github.com/mesham/pynq_api), which allows you to interact with the PL from C. Together with Python's CFFI, it makes for a great combo.
 
 ## Notes
 
