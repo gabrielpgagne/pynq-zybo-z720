@@ -54,13 +54,13 @@ Then `source ~/.bashrc` to apply the new configuration to your current shell.
 
 You may have to install the following dependencies:
 
-`sudo apt-get install net-tools xterm autoconf libtool texinfo zlib1g-dev gcc-multilib zlib1g:i386 libncurses5-dev libncursesw5-dev`
+`sudo apt-get install git net-tools xterm autoconf libtool texinfo zlib1g-dev gcc-multilib zlib1g:i386 libncurses5-dev libncursesw5-dev`
 
 ### PYNQ
 
 Finally, we are ready to build the custom SD card image. 
 
-Start by cloning the PYNQ repository in a convenient location, in my case : `cd ~/Documents; git clone --depth 1 git@github.com:Xilinx/PYNQ.git`
+Start by cloning the PYNQ repository in a convenient location, in my case : `cd ~/Documents; git clone --depth 1 https://github.com/Xilinx/PYNQ.git; cd PYNQ`
 
 Start by setting up the sdbuild flow: `./sdbuild/scripts/setup_host.sh`. Then, follow step 3 of [_Building the Image from Source_](https://pynq.readthedocs.io/en/latest/pynq_sd_card.html). _Note_: Download the 2 pre-built images circled below. As of 2024-01-14, there is a naming bug in `PYNQ rootfs arm v3.0.1`: rename its extension from `.gz` to `.tar.gz`.
 
