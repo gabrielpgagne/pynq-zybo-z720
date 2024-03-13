@@ -9,13 +9,15 @@
 			};
 		};
 	};
-        usb_phy0: phy0 {
-                compatible = "ulpi-phy";
-                #phy-cells = <0>;
-                reg = <0xe0002000 0x1000>;
-                view-port = <0x170>;
-                drv-vbus;
-        };
+
+	usb_phy0: phy0 {
+			compatible = "ulpi-phy";
+			#phy-cells = <0>;
+			reg = <0xe0002000 0x1000>;
+			view-port = <0x170>;
+			drv-vbus;
+	};
+
 	audio0:audio-codec-ctrl@43c00000 {
 		compatible = "xlnk,audio-codec-ctrl-1.0";
 		reg = <0x43c00000 0x10000>;
@@ -35,6 +37,8 @@
 };
 
 &usb0 {
-        usb-phy = <&usb_phy0>;
+	status = "okay";
+	dr_mode = "host";
+	usb-phy = <&usb_phy0>;
 };
 
