@@ -31,9 +31,9 @@ After configuring your VM, **on your host machine**, install Xilinx tools **2022
 
 After the installation is complete, create a shared folder between your Host and VM:
 
-- Folder Path: `/home/user/johndoe/Xilinx`
+- Folder Path: `/home/johndoe/Xilinx`
 - Folder Name: Xilinx
-- Mount point: `/home/user/johndoe/Xilinx`
+- Mount point: `/home/johndoe/Xilinx`
 - [x] Auto-mount 
 - [x] Make Permanent 
 
@@ -51,6 +51,10 @@ source $HOME/Xilinx/Vitis/2022.1/settings64.sh
 ```
 
 Then `source ~/.bashrc` to apply the new configuration to your current shell.
+
+You may have to install the following dependencies:
+
+`sudo apt-get install net-tools xterm autoconf libtool texinfo zlib1g-dev gcc-multilib zlib1g:i386 libncurses5-dev libncursesw5-dev`
 
 ### PYNQ
 
