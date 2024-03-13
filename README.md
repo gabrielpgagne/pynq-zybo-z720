@@ -54,7 +54,7 @@ Then `source ~/.bashrc` to apply the new configuration to your current shell.
 
 You may have to install the following dependencies:
 
-`sudo apt-get install git net-tools xterm autoconf libtool texinfo zlib1g-dev gcc-multilib zlib1g:i386 libncurses5-dev libncursesw5-dev`
+`sudo apt-get install git net-tools libtinfo5 xterm autoconf libtool texinfo zlib1g-dev gcc-multilib zlib1g:i386 libncurses5-dev libncursesw5-dev`
 
 ### PYNQ
 
