@@ -1,13 +1,8 @@
 #   Copyright (c) 2017, Xilinx, Inc.
 #   SPDX-License-Identifier: BSD-3-Clause
 
-
 import pynq
 import pynq.lib
-import pynq.lib.video
-import pynq.lib.audio
-
-
 
 class BaseOverlay(pynq.Overlay):
     """ 
@@ -27,19 +22,11 @@ class BaseOverlay(pynq.Overlay):
          2-bit input GPIO for interacting with the switches SW0 and SW1
     rgbleds : [pynq.board.RGBLED]
          Wrapper for GPIO for LD4 and LD5 multicolour LEDs
-    video : pynq.lib.video.HDMIWrapper
-         HDMI input and output interfaces
-    audio : pynq.lib.audio.Audio
-         Headphone jack and on-board microphone
-
     """
 
     def __init__(self, bitfile, **kwargs):
         super().__init__(bitfile, **kwargs)
         if self.is_loaded():
-            self.audio = self.audio_direct_0
-            self.audio.configure()
-            
             self.leds = self.leds_gpio.channel1
             self.switches = self.switches_gpio.channel1
             self.buttons = self.btns_gpio.channel1
