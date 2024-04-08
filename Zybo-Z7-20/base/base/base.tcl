@@ -1901,4 +1901,9 @@ unassigned#qspi0_ss_b#qspi0_io[0]#qspi0_io[1]#qspi0_io[2]#qspi0_io[3]/HOLD_B#qsp
 
 create_root_design ""
 
+make_wrapper -files [get_files base/base.srcs/sources_1/bd/base/base.bd] -top
+
+add_files -norecurse base/base.gen/sources_1/bd/base/hdl/base_wrapper.v
+
+
 
