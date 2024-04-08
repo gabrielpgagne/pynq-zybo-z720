@@ -100,6 +100,17 @@ The _base overlay_ is a regular Overlay (bitstream + hwh) that is loaded at boot
 
 The `boot_leds` PYNQ package uses `base`, which is a simple LED dancing script. It is located at `/boot/boot.py` in the PYNQ rootfs.
 
+#### AC Notes
+cd into /Zybo-Z7-20/base/base
+
+Make sure you have sourced the vivado setup script.
+
+First generate the HLS IP:
+run `build_hls.sh`
+
+Then to open vivado and create base/base.xpr:
+run `create_project.sh`
+
 ### Installing overlays
 
 Overlays should contain at minimum the `.bit` and `.hwh` file of the block design project and to globally install them, copy them to `~/pynq/overlays` and update `__init__.py`.

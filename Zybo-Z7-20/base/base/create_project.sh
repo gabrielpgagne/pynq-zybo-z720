@@ -1,0 +1,2 @@
+vivado -source base.tcl
+
