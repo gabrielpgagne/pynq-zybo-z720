@@ -30,6 +30,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
    return 1
 }
 
+
 ################################################################
 # START
 ################################################################
@@ -39,14 +40,17 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 # If there is no project opened, this script will create a
 # project, but make sure you do not have an existing project
-# <./myproj/project_1.xpr> in the current working folder.
+# <./base/base.xpr> in the current working folder.
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
-   create_project project_1 myproj -part xc7z020clg400-1
-   set_property BOARD_PART digilentinc.com:zybo-z7-20:part0:1.2 [current_project]
+   xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo-z7-20:1.1]
+   create_project base base -part xc7z020clg400-1
+   set_property BOARD_PART digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
 }
 
+set_property  ip_repo_paths  ../../../ip [current_project]
+update_ip_catalog
 
 # CHANGE DESIGN NAME HERE
 variable design_name
